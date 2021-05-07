@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>tentativa</title>
+</head>
+<body>
+    <form onsubmit="return validateForm()" method="post" action="form.php" name="english_registration_form" id="english_registration_form">
+        *Last name:<input type="text" id="last" name="last" aria-describedby="name-format" 
+        required id="last" name="last"me>
+        <span class="error"><p id="name_error"></p></span>
+        *First name:<input type="text" id="email" name="first" required>
+        <span class="error"><p id="name_error"></p></span>
+        *sex: <select name="cidade" id="cidade">
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+        </select><br><br>
+        *Email: <input type="email" name="email" required>
+        <span class="error"><p id="email_error"></p></span>
+
+
+
+
+        
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset"> 
+    
+    </form>
+</body>
+</html>
